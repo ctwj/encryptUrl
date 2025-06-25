@@ -1,0 +1,14 @@
+{
+    "name": "url-encrypt-service",
+    "version": "1.0.0",
+    "description": "URL加密服务，使用本地fun.js函数库",
+    "main": "server.js",
+    "scripts": {
+      "start": "node server.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "dependencies": {
+      "express": "^4.18.2",
+      "crypto-js": "^4.1.1"
+    }
+  }
